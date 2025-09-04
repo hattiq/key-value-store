@@ -1,15 +1,3 @@
-
-
-# Implement an in-memory key-value store with the following operations:
-# - **`put(key, value)`**
-# - **`get(key)`** → value
-# - **`delete(key)`**
-
-# add transaction capabilities:
-# - **`begin()`**: Start new transaction
-# - **`commit()`**: Apply all changes
-# - **`rollback()`**: Discard recent transaction
-
 from typing import Optional, List
 
 class Store:
